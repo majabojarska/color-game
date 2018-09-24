@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns#">
+
+<head>  
+    <meta charset="UTF-8">
+    <meta property="og:image" content="img/thumbnail.png" />
+    <meta property="og:title" content="A color guessing game" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://mayobytes.pl/dankcolor" />
+    <meta property="og:site_name" content="memes" />
+    <meta property="og:description" content="Just play it.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Color Game</title>
+    <link href="https://fonts.googleapis.com/css?family=Rubik:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>
+        The dankest
+        <br>
+        <span id="colorDisplay"></span>
+        <br>guessing Game
+    </h1>
+
+    <div id="stripe">
+        <div class="stripe-refresh">
+            <button id="reset" class="controls">Refresh</button>
+        </div>
+        <!-- <div id="stripe-message"> -->
+        <span id="messageDisplay" class="controls">Guess the color</span>
+        <!-- </div> -->
+        <div id="stripe-modes">
+            <button class="controls modeButton">Newbie</button>
+            <button class="controls modeButton">Easy</button>
+            <button class="controls modeButton">Medium</button>
+            <button class="controls modeButton">Hard</button>
+            <button class="controls modeButton">Insane</button>
+            <!-- <button class="controls modeButton">Leszek</button> -->
+
+        </div>
+
+    </div>
+
+
+    <div id="container">
+        <div class="squareContainer">
+            <div class="square"></div>
+        </div>
+        <div class="squareContainer">
+            <div class="square"></div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
